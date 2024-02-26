@@ -75,7 +75,7 @@ window.addEventListener('scroll', scrollActive);
 // ================= DARK THEME =====================
 const themeButton = d.getElementById('theme-button')
 const darkTheme = 'dark-theme'
-const iconTheme = 'ri-sun-line'
+const iconTheme = 'dark-theme'
 
 // prev. selected theme(user selected)
 const selectedTheme = localStorage.getItem('selected-theme')
